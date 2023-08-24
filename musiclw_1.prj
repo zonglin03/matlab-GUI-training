@@ -1,0 +1,104 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1856412644" file="G:\matlab_GUI\test\musiclw_1.prj" location="G:\matlab_GUI\test" name="musiclw_1" target="target.mlapps" target-name="打包为 App">
+    <param.appname>musiclw_1</param.appname>
+    <param.authnamewatermark>wbh,lzl</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon>${PROJECT_ROOT}\musiclw_1_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\musiclw_1_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\musiclw_1_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\musiclw_1_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>6666</param.summary>
+    <param.description>What do you hear?</param.description>
+    <param.screenshot>C:\Users\LZL\AppData\Local\Temp\tp98ab933e_3cdb_4cda_b5fb_aeeee8112c92.png</param.screenshot>
+    <param.version>3.14159</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>a52fe32f-afb9-47a6-94cd-adec9e52735c</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\music.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\cutDownHumanVoice.m</file>
+      <file>${PROJECT_ROOT}\getReverbSampleData.m</file>
+      <file>${PROJECT_ROOT}\sec2HourMinSec.m</file>
+      <file>${PROJECT_ROOT}\setPopularEq.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="G:\matlab_GUI" name="test" optional="false">G:\matlab_GUI\test</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>E:\MATLABR2022a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
